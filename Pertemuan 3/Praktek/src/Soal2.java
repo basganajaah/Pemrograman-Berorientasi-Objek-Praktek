@@ -24,9 +24,6 @@ public class Soal2 {
             }
         }
 
-        int len = strings[0].length();
-        System.out.println(len);
-
         System.out.println("================================");
         for (int i = 0; i < loop; i++) {
             System.out.printf("%-15s%03d\n", newStrings[i], numbers[i] < 0 ? 0 : Math.min(numbers[i], 999));
