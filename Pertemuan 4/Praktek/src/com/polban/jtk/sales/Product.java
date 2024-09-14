@@ -16,7 +16,7 @@ public class Product {
     }
 
     public double getPrice() {
-        return price;
+        return (long) price;
     }
 
     public void setPrice(double price) {

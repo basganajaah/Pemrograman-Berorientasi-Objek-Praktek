@@ -22,6 +22,6 @@ public class Sales {
     public void updateProductPrice(double newPrice) {
         System.out.println("Memperbarui harga produk...");
         product.setPrice(newPrice);
-        System.out.printf("Harga baru: %.2f\n", product.getPrice());
+        System.out.println("Harga baru: " + (long) product.getPrice());
     }
 }
