@@ -1,0 +1,40 @@
+[
+  {
+    "paymentMethod": "cash",
+    "status": {
+      "code": 0,
+      "description": "OK"
+    },
+    "servicePackage": {
+      "service": "REGULAR (REG)",
+      "value": 15000
+    },
+    "city": {
+      "origin": "BANDUNG",
+      "destination": "JAKARTA"
+    },
+    "weight": 2,
+    "quantity": 1,
+    "priceItem": 80000,
+    "productName": "Celana Jeans"
+  },
+  {
+    "paymentMethod": "qris",
+    "status": {
+      "code": 0,
+      "description": "OK"
+    },
+    "servicePackage": {
+      "service": "REGULAR (REG)",
+      "value": 26000
+    },
+    "city": {
+      "origin": "BANDUNG",
+      "destination": "SURABAYA"
+    },
+    "weight": 2,
+    "quantity": 2,
+    "priceItem": 90000,
+    "productName": "Kemeja Lengan Panjang"
+  }
+]
