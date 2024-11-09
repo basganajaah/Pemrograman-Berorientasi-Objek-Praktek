@@ -11,7 +11,7 @@ public class ParseInts{
         int  val, sum = 0;
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a line of text: ");
-        Scanner scanLine = new Scanner(scan.nextLine());
+        Scanner scanLine = new Scanner(scan.nextL ine());
         while (scanLine.hasNext()) {
             try {
                 val = Integer.parseInt(scanLine.next());
